@@ -1,0 +1,15 @@
+﻿@using (Html.BeginForm("Search", "Default", FormMethod.Get, new { @class = "col-lg-4 col-6 text-left" }))
+
+{
+<form action="">
+    <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="Search">
+        <div class="input-group-append">
+            <span class="input-group-text bg-transparent text-primary">
+
+                <button type="submit"><i class="fa fa-search"> </i></button>
+            </span>
+        </div>
+    </div>
+</form>
+}

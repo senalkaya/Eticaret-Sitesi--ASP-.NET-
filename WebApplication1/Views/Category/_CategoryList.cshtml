@@ -1,0 +1,11 @@
+﻿@using WebApplication1.Models
+@model IEnumerable<CategoryModel>
+
+
+
+@foreach (var item in Model)
+{
+  <a href="/Default/ProductList/@item.Id" class="nav-item nav-link">@item.Name [@item.Count]</a>
+}
+
+
